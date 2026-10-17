@@ -1,0 +1,64 @@
+{
+  "tabular_only": {
+    "pr_auc": 0.9995458570806912,
+    "roc_auc": 0.9999981703233893,
+    "precision": 0.9923229321446261,
+    "recall": 0.999750499001996,
+    "f1": 0.99602286850609,
+    "threshold": 0.8327566385269165,
+    "alert_rate": 0.004230961459273067,
+    "tp": 4007,
+    "fp": 31,
+    "fn": 1,
+    "tn": 950354,
+    "cv_pr_auc": 0.9895514361333572,
+    "val_f1": 0.9868305531167691,
+    "best_params": {
+      "colsample_bytree": 0.749816047538945,
+      "gamma": 2.8521429192297485,
+      "learning_rate": 0.1618509290001068,
+      "max_depth": 7,
+      "min_child_weight": 5,
+      "n_estimators": 252,
+      "reg_lambda": 0.7792297153882993,
+      "subsample": 0.6399899663272012
+    }
+  },
+  "tabular_plus_graph": {
+    "pr_auc": 0.9994212672847897,
+    "roc_auc": 0.9999975549618891,
+    "precision": 0.992548435171386,
+    "recall": 0.9970059880239521,
+    "f1": 0.9947722180731889,
+    "threshold": 0.9652149677276611,
+    "alert_rate": 0.004218388022544172,
+    "tp": 3996,
+    "fp": 30,
+    "fn": 12,
+    "tn": 950355,
+    "cv_pr_auc": 0.989157236723034,
+    "val_f1": 0.9868305531167691,
+    "best_params": {
+      "colsample_bytree": 0.7836995567863468,
+      "gamma": 1.0011258334170656,
+      "learning_rate": 0.0416857934827831,
+      "max_depth": 5,
+      "min_child_weight": 6,
+      "n_estimators": 407,
+      "reg_lambda": 2.7796975515266835,
+      "subsample": 0.9754210836063001
+    }
+  },
+  "meta": {
+    "rows": 6362620,
+    "frauds": 8213,
+    "fraud_rate": 0.001290820448180152,
+    "n_train": 4453834,
+    "n_val": 954393,
+    "n_test": 954393,
+    "test_frauds": 4008,
+    "graph_blocks": 10,
+    "train_seconds": 400.5,
+    "source": "/tmp/claude-0/-home-user-DTU-placement-Stats/bfae4374-5c23-5b1b-9e70-334295b5a32f/scratchpad/rawdata/paysim.csv"
+  }
+}
